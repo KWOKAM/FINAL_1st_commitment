@@ -44,3 +44,5 @@ function displayMovies(moviesList) {
     const title = document.createElement("h5");
     title.className = "card-title";
     title.textContent = movie.title;
+    
+   
