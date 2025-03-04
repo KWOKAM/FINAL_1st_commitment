@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Flixprime - Streaming de Films</title>
-  <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
 
-  <!-- Barre de navigation -->
+  <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Flixprime</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -25,43 +25,42 @@
     </div>
   </nav>
 
-  <!-- Contenu principal -->
+  <!-- Main Content -->
   <div class="container mt-5">
     <div class="search-container text-center mb-4">
       <input type="text" id="searchInput" class="form-control" placeholder="Rechercher un film, une série...">
     </div>
 
-    <!-- Container pour les films -->
+    <!-- Movies Container -->
     <div id="moviesContainer" class="row">
-      <!-- Les cards seront insérées ici par JavaScript -->
+      <!-- Cards will be inserted here by JavaScript -->
     </div>
-  </div>
 
-  <div class="content">
-    <h1>FLIX PRIME</h1>
-    <p>Servicio líder de IPTV con toda la programación en un solo lugar. Con Flix Prime no necesitas más plataformas.</p>
+    <div class="content mt-5">
+      <h1>FLIX PRIME</h1>
+      <p>Servicio líder de IPTV con toda la programación en un solo lugar. Con Flix Prime no necesitas más plataformas.</p>
 
-    <h2 id="pais">Países</h2>
-    <ul>
-      <li>Perú</li>
-      <li>Ecuador</li>
-      <li>Colombia</li>
-      <li>Argentina</li>
-      <li>Chile</li>
-    </ul>
+      <h2 id="pais">Países</h2>
+      <ul>
+        <li>Perú</li>
+        <li>Ecuador</li>
+        <li>Colombia</li>
+        <li>Argentina</li>
+        <li>Chile</li>
+      </ul>
 
-    <h2 id="links">Links</h2>
-    <ul>
-      <li><a href="#guia-tv">Guía TV</a></li>
-      <li><a href="#consultas">Consultas</a></li>
-      <li><a href="#contratar">Contratar</a></li>
-      <li><a href="#demo">Probar demo</a></li>
-      <li><a href="#faqs">FAQs</a></li>
-    </ul>
+      <h2 id="links">Links</h2>
+      <ul>
+        <li><a href="#guia-tv">Guía TV</a></li>
+        <li><a href="#consultas">Consultas</a></li>
+        <li><a href="#contratar">Contratar</a></li>
+        <li><a href="#demo">Probar demo</a></li>
+        <li><a href="#faqs">FAQs</a></li>
+      </ul>
 
-    <h2 id="cobertura">Cobertura mundial</h2>
-    <!-- World map image placeholder -->
-    <img src="world-map-placeholder.png" alt="Mapa Mundial" style="width:100%;">
+      <h2 id="cobertura">Cobertura mundial</h2>
+      <img src="world-map-placeholder.png" alt="Mapa Mundial" class="img-fluid">
+    </div>
   </div>
 
   <!-- Footer -->
@@ -74,6 +73,5 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="scripts/app.js"></script>
-
 </body>
 </html>
